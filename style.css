@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 *{ /* asterisco significa tudo */
+    font-family: "Inter", sans-serif;;
     margin: 0;  /* ESPAÇAMENTO EXTERNO */
     padding: 0;  /* ESPAÇAMENTO INTERNO */
     box-sizing: border-box;
@@ -22,6 +25,7 @@ video {
 
 h1 {
     color: white;
+    font-size: 50px;
 }
 
 .sub-titulo {
@@ -29,16 +33,42 @@ h1 {
 }
 
 .info-carro {
-
+    margin-top: 80px;
+    text-align: center;
 }
 
 .item {
     position: relative;
+    width: 100vw;  /* TELA TODA - LARGURA */
+    height: 100vh; /* TELA TODA - ALTURA */
+    position: relative;
     display: flex; /* HABILITA ALGUMAS PROPRIEDADES CSS*/
     justify-content: space-between; /* CRIA UM ESPAÇAMENTO ENTRE OS ITENS */
+    flex-direction: column; /* DEIXAR UM ITEM DEBAIXO DO OUTRO */
 }
 
 .rodape{
+    text-align: center; /* ALINHA NO CENTRO */
+}
 
+button {
+    background-color: rgba(34, 34, 34, 0.8);
+    color: white;
+    padding: 7px 80px;
+    border-radius: 5px; /* ARREDONDA BORDA */
+    border: none; /* TIRA A BORDA */
+    opacity: 0.8;
+    cursor: pointer; /* MUDA O CURSOR AO PASSAR MOUSE EM CIMA */
+}
+
+.test-drive {
+    background-color: white;
+    color: black;
+}
+
+.texto-rodape {
+    color: white;
+    font-size: 12px;
+    margin-top: 8px;
 }
 
