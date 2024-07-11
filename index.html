@@ -1,20 +1,31 @@
 <!DOCTYPE html> <!-- VERSAO DO HTML -->
 <html lang="pt-br"> <!-- TAG HTML E LINGUA DO SITE-->
-<head>  <!-- CONFIGURAÇOES DO SITE -->
+
+<head> <!-- CONFIGURAÇOES DO SITE -->
     <meta charset="UTF-8"> <!-- PADRAO DE CARACTERES DO SITE -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevClub - Tesla</title>
+    <title> Tesla </title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <img src="imgs/logo.png" alt="Logo Tesla">
+    <img src="imgs/logo.png" alt="Logo Tesla" class="logo">
 
-    <video src="imgs/model-y.mp4" autoplay loop muted></video>
+    <div class="item">
+        <video src="imgs/model-y.mp4" autoplay loop muted></video>
 
-    <h1>Model Y</h1>
-    <p>Parcelas apartir de 399U$</p>
+        <div class="info-carro">
+            <h1>Model Y</h1>
+            <p class="sub-titulo">Parcelas apartir de 399U$</p>
+        </div>
 
-    <button>Comprar Agora</button>
-    <button>Faça um Test-Drive</button>
-    <p>Vendas sob Demanda e Estoque</p>
+        <div class="rodape">
+            <button>Comprar Agora</button>
+            <button>Faça um Test-Drive</button>
+            <p>Vendas sob Demanda e Estoque</p>
+        </div>
+
+    </div>
 </body>
+
 </html>

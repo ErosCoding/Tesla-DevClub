@@ -1,0 +1,44 @@
+*{ /* asterisco significa tudo */
+    margin: 0;  /* ESPAÇAMENTO EXTERNO */
+    padding: 0;  /* ESPAÇAMENTO INTERNO */
+    box-sizing: border-box;
+}
+video {
+    width: 100%;  /* LARGURA */
+    height: 100%;  /* ALTURA */
+    position: absolute; /* POSICIONAR ITEM EM POSIÇÃO EXATA */
+    top: 0;
+    left: 0;
+    z-index: -1; /* DEFINE ORDEM, QUEM FICA NA FRENTE DE QUEM */
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+.logo {
+    filter: brightness(100);
+    position: fixed;
+    width: 200px;
+}
+
+h1 {
+    color: white;
+}
+
+.sub-titulo {
+    color: white;
+}
+
+.info-carro {
+
+}
+
+.item {
+    position: relative;
+    display: flex; /* HABILITA ALGUMAS PROPRIEDADES CSS*/
+    justify-content: space-between; /* CRIA UM ESPAÇAMENTO ENTRE OS ITENS */
+}
+
+.rodape{
+
+}
+
